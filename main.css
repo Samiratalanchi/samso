@@ -1,6 +1,17 @@
 #container {
-    width: 90%;
-    height: 90%;
-    margin-left: 5%;
-    background-color: red;
+    width: 95%;
+    height: 95%;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    position: relative;
+}
+#leftside {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+#main {
+    width: 75%;
+    height: 100%;
+    margin-left: 25%;
 }
