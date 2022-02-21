@@ -21,31 +21,42 @@ a:hover {
 }
 
 #nav-button {
-    border: 1px solid white;
+    border: 1px so.nav-item-cssd white;
 }
 
-li {
+.nav-item-css {
     margin-bottom: -5px;
     margin-top: -5px;
     width: 150px;
     color: gray;
 }
-li:hover {
+.nav-item-css:hover {
     border-color: rgb(29,120,217);
     border-width: 0px 0px 0px 4px;
     border-style: solid;
     
 }
-li:hover a {
+.nav-item-css:hover a {
     color: white !important;
 }
-li:active {
+.nav-item-css:active {
     border-color: rgb(211, 106, 7);
     border-width: 0px 0px 0px 4px;
     border-style: solid;
 }
-li:active a {
+.nav-item-css:active a {
     color: white !important;
 }
-
+.hrtitle {
+    width: 20px;
+    height: 4px;
+    background-color: rgb(29,120,217);
+    border-radius: 3px;
+    display: inline-block;
+}
+p {
+    font-size: 20px;
+    display: inline-block;
+    color: rgb(29,120,217);
+}
 
