@@ -1,14 +1,14 @@
 #first,#second,#third {
     height: 5px;
     margin: 5px 0;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
     content: "";
     display: block;
     scale: 1;
 }
 button {
-    height: 40px;
+    height: 45px;
 }
 a:hover {
     
@@ -17,5 +17,14 @@ a:hover {
 #navbar-ss {
     width: 75px;
     height: 100vh;
+    background-color: rgb(31,63,143);
 }
 
+#nav-button {
+    border: 1px solid white;
+}
+
+li {
+    margin-bottom: -5px;
+    margin-top: -5px;
+}

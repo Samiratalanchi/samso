@@ -1,6 +1,5 @@
 function displayMenu() {
     if(document.getElementById("second").style.scale != "0" ) {
-        console.log(document.getElementById("second").style.scale);
         document.getElementById("first").style.transition="1s"
         document.getElementById("second").style.transition="1s"
         document.getElementById("third").style.transition="1s"
@@ -19,6 +18,6 @@ function displayMenu() {
         document.getElementById("first").style.marginTop="5px";
         document.getElementById("third").style.rotate="0deg";
         document.getElementById("third").style.marginTop="5px";
-        document.getElementById("navbar-ss").style.width="70px"
+        document.getElementById("navbar-ss").style.width="75px"
     }
 }
