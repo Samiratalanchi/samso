@@ -27,4 +27,25 @@ a:hover {
 li {
     margin-bottom: -5px;
     margin-top: -5px;
+    width: 150px;
+    color: gray;
 }
+li:hover {
+    border-color: rgb(29,120,217);
+    border-width: 0px 0px 0px 4px;
+    border-style: solid;
+    
+}
+li:hover a {
+    color: white !important;
+}
+li:active {
+    border-color: rgb(211, 106, 7);
+    border-width: 0px 0px 0px 4px;
+    border-style: solid;
+}
+li:active a {
+    color: white !important;
+}
+
+
