@@ -21,7 +21,7 @@ a:hover {
 }
 
 #nav-button {
-    border: 1px so.nav-item-cssd white;
+    border: 1px solid white;
 }
 
 .nav-item-css {
@@ -54,9 +54,16 @@ a:hover {
     border-radius: 3px;
     display: inline-block;
 }
-p {
+#menu-title {
     font-size: 20px;
     display: inline-block;
     color: rgb(29,120,217);
 }
-
+#container {
+    width: 100vw - 90px;
+    height: 94vh;
+    margin-left: 90px;
+    margin-top: 3vh;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
