@@ -1,17 +1,21 @@
-#container {
-    width: 95%;
-    height: 95%;
-    margin-left: 2.5%;
-    margin-top: 2%;
-    position: relative;
+#first,#second,#third {
+    height: 5px;
+    margin: 5px 0;
+    background-color: black;
+    border-radius: 5px;
+    content: "";
+    display: block;
+    scale: 1;
 }
-#leftside {
-    width: 25%;
-    height: 100%;
-    float: left;
+button {
+    height: 40px;
 }
-#main {
-    width: 75%;
-    height: 100%;
-    margin-left: 25%;
+a:hover {
+    
 }
+
+#navbar-ss {
+    width: 75px;
+    height: 100vh;
+}
+
