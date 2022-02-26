@@ -63,4 +63,6 @@ button {
     margin-top: 3vh;
     overflow-y: scroll;
     overflow-wrap: break-word;
+    font-size:small;
+    line-height: 5px;
 }
