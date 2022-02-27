@@ -97,3 +97,6 @@ button {
 svg {
     margin-top: -3px;
 }
+#container,#title-box,#button-box {
+    visibility: hidden;
+}

@@ -31,3 +31,8 @@ function displayMenu() {
         document.getElementById("mnu-title").style.visibility="hidden";
     }
 }
+function openDock() {
+    document.getElementById("container").style.visibility="visible";
+    document.getElementById("title-box").style.visibility="visible";
+    document.getElementById("button-box").style.visibility="visible";
+}
