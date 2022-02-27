@@ -5,14 +5,23 @@
     border-radius: 5px;
     content: "";
     display: block;
-    scale: 1;
+}
+#first {
+    rotate: -135deg;
+    margin-top: 10px;
+}
+#second {
+    scale: 0;
+}
+#third {
+    rotate: 135deg;
+    margin-top: -20px;
 }
 button {
     height: 45px;
 }
-
 #navbar-ss {
-    width: 75px;
+    width: 200px;
     height: 100vh;
     background-color: rgb(31,63,143);
 }
@@ -57,9 +66,9 @@ button {
     color: rgb(29,120,217);
 }
 #container {
-    width: 100vw - 90px;
+    width: 100vw - 220px;
     height: 79vh;
-    margin-left: 90px;
+    margin-left: 220px;
     margin-top: 3vh;
     margin-bottom: 3vh;
     padding: 5px;
@@ -74,7 +83,7 @@ button {
 }
 
 #button-box {
-    margin-left: 90px;
+    margin-left: 220px;
     margin-top: 3vh;
 }
 #title-box {
@@ -82,7 +91,7 @@ button {
     padding-left: 7px;
     border: 1px solid black;
     width: 620px;
-    margin-left: 90px;
+    margin-left: 220px;
     margin-top: 3vh;
 }
 svg {

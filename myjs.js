@@ -1,5 +1,5 @@
 function displayMenu() {
-    if(document.getElementById("second").style.scale != "0" ) {
+    if(document.getElementById("second").style.scale != 0 ) {
         document.getElementById("first").style.transition="1s"
         document.getElementById("second").style.transition="1s"
         document.getElementById("third").style.transition="1s"
@@ -14,11 +14,11 @@ function displayMenu() {
         document.getElementById("button-box").style.marginLeft="220px";
         document.getElementById("title-box").style.marginLeft="220px";
         document.getElementById("mnu-title").style.visibility="visible";
-    } else if (document.getElementById("second").style.scale == "0"){
+    } else if (document.getElementById("second").style.scale == 0){
+        document.getElementById("second").style.scale=1;
         document.getElementById("first").style.transition="1s"
         document.getElementById("second").style.transition="1s"
         document.getElementById("third").style.transition="1s"
-        document.getElementById("second").style.scale=1;
         document.getElementById("first").style.rotate="0deg";
         document.getElementById("first").style.marginTop="5px";
         document.getElementById("third").style.rotate="0deg";
